@@ -8,5 +8,6 @@ class HomePresenter extends AbstractPresenter
 {
 	public function actionDefault(): void
 	{
+
 	}
 }

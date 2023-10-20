@@ -7,3 +7,4 @@ search:
 
 services:
 	- App\Router\RouterFactory::createRouter
+	- App\Services\Csv\CsvService

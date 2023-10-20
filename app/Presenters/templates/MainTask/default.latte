@@ -1,3 +1,30 @@
 {block content}
 
 <a n:href=":Home:">Home</a>
+
+<table>
+    <tr>
+        <td>
+            <span>ID</span>
+        </td>
+        <td>
+            <span>Cron Job Name</span>
+        </td>
+        <td>
+            <span>Prumerny cas provedeni</span>
+        </td>
+    </tr>
+    {foreach $cronDataArray as $key => $cronData}
+    <tr>
+        <td>
+            <span>{$key}</span>
+        </td>
+        <td>
+            <span>{$cronData['Cron Job Name']}</span>
+        </td>
+        <td>
+            <span>{$cronData['Prumerny cas provedeni']}</span>
+        </td>
+    </tr>
+    {/foreach}
+</table>
