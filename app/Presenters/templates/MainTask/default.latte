@@ -1,6 +1,8 @@
 {block content}
 
-<a n:href=":Home:" class="link-back">Home</a>
+<div class="link-back-wrap">
+    <a n:href=":Home:" class="link-back">Home</a>
+</div>
 
 <div class="datatable-wrap">
     <div>
@@ -15,17 +17,6 @@
                     </td>
                     <td>
                         <span>Average time (ms)</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span></span>
-                    </td>
-                    <td>
-                        <span></span>
-                    </td>
-                    <td>
-                        <span>filter</span>
                     </td>
                 </tr>
                 {foreach $dataTableDataArray as $dataTableData}
@@ -43,14 +34,23 @@
                 {/foreach}
             </table>
             <div>
-                <form n:name="filterByTimeForm">
-                    <label n:name="timeFrom">From</label>
-                    <input type="number" class="filter-input" n:name="timeFrom" />
-                    <label n:name="timeTo">To</label>
-                    <input type="number" class="filter-input" n:name="timeTo" />
-                    <input type="submit" class="filter-button" />
-                    <a n:href="resetFilter!">close & reset</a>
-                </form>
+                <div class="datatable-filter-time">
+                    <span class="datatable-filter-time-heading">Filter by averige time</span>
+                    <form n:name="filterByTimeForm">
+                        <div>
+                            <label n:name="timeFrom">From</label>
+                            <input type="number" class="filter-input" n:name="timeFrom" />
+                        </div>
+                        <div class="filter-input-bottom">
+                            <label n:name="timeTo">To</label>
+                            <input type="number" class="filter-input" n:name="timeTo" />
+                        </div>
+                        <div class="filter-button">
+                            <input type="submit" class="filter-button-submit"/>
+                            <a n:href="resetFilter!" class="filter-button-close-reset">reset</a>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 

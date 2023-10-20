@@ -1,17 +1,21 @@
 body {
     padding: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 /* Menu */
+
+.link-back-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
 .link-back {
     background: lightskyblue;
     text-decoration: none;
     color: black;
     padding: 10px 20px;
-    margin-top: 20px;
 }
 
 /* Main task */
@@ -66,4 +70,46 @@ tr:nth-child(even) {
 
 .filter-input {
     display: block;
+}
+
+.datatable-filter-time {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.filter-input-bottom {
+    margin-top: 5px;
+}
+
+.filter-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-button-close-reset {
+    text-decoration: none;
+    color: orangered;
+    margin-top: 10px;
+}
+
+.filter-button-submit {
+    background: lightskyblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.filter-link-time {
+    color: orangered;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.datatable-filter-time-heading {
+    font-weight: bold;
 }
