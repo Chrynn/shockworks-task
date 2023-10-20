@@ -59,3 +59,11 @@ tr:nth-child(even) {
 .datatable-control-right {
     margin-left: 10px;
 }
+
+.datatable-flex {
+    display: flex;
+}
+
+.filter-input {
+    display: block;
+}
