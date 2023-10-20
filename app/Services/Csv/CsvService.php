@@ -9,11 +9,16 @@ use League\Csv\Reader;
 
 final class CsvService
 {
-	public function getArrayFromCsv(string $filePath): Iterator
+	public function getIteratorFromCsv(string $filePath): Iterator
 	{
-		$reader = Reader::createFromPath($filePath);
-		$reader->setHeaderOffset(0);
+		$csvReader = Reader::createFromPath($filePath);
+		$csvReader->setHeaderOffset(0);
 
-		return $reader->getIterator();
+		return $csvReader->getIterator();
+	}
+
+	public function getArrayFromCsv(string $filePath): array
+	{
+		return iterator_to_array($this->getIteratorFromCsv($filePath));
 	}
 }

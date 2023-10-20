@@ -8,23 +8,46 @@
             <span>ID</span>
         </td>
         <td>
-            <span>Cron Job Name</span>
+            <span>Name</span>
         </td>
         <td>
-            <span>Prumerny cas provedeni</span>
+            <span>Average time</span>
         </td>
     </tr>
-    {foreach $cronDataArray as $key => $cronData}
     <tr>
         <td>
-            <span>{$key}</span>
+            <span></span>
         </td>
         <td>
-            <span>{$cronData['Cron Job Name']}</span>
+            <span></span>
         </td>
         <td>
-            <span>{$cronData['Prumerny cas provedeni']}</span>
+            <span>filter</span>
+        </td>
+    </tr>
+    {foreach $dataTableDataArray as $dataTableData}
+    <tr>
+        <td>
+            <span>{$dataTableData['Cron Job ID']}</span>
+        </td>
+        <td>
+            <span>{$dataTableData['Cron Job Name']}</span>
+        </td>
+        <td>
+            <span>{$dataTableData['Prumerny cas provedeni']}</span>
         </td>
     </tr>
     {/foreach}
 </table>
+
+<div>
+    <a n:href="showLastRows! $dataTableSliceOffset, $dataTablePageIndicator">
+        <
+    </a>
+
+    <span>Page {$dataTablePageIndicator}</span>
+
+    <a n:href="showNextRows! $dataTableSliceOffset, $dataTablePageIndicator">
+        >
+    </a>
+</div>
