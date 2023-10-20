@@ -8,7 +8,7 @@ use App\Services\Csv\CsvService;
 
 class CronDatatableService
 {
-	private const ROWS_PER_DATATABLE = 20;
+	public const ROWS_PER_DATATABLE = 20;
 	private const CRON_CSV_PATH = '../csv/cron-jobs.csv';
 
 	public function __construct(protected CsvService $csvService)

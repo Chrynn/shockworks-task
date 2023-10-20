@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Menu */
+
+.link-back {
+    background: lightskyblue;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/* Main task */
+
+.datatable-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.datatable {
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.datatable-row-highlighted {
+    background: lightskyblue;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+tr:nth-child(even) {
+    background: #e5e5e5;
+}
+
+.datatable-controls-wrap {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.datatable-control {
+    background: lightskyblue;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+}
+
+.datatable-control-left {
+    margin-right: 10px;
+}
+
+.datatable-control-right {
+    margin-left: 10px;
+}

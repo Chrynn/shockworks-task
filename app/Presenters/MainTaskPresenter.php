@@ -26,7 +26,7 @@ class MainTaskPresenter extends AbstractPresenter
 	public function handleShowNextRows(int $dataTableSliceOffset, int $dataTablePageIndicator): void
 	{
 		$cronDataTableAllRowCount = $this->cronDatatableService->getCronDataTableAllRowCount();
-		$newDataTableSliceOffset = $dataTableSliceOffset + 20;
+		$newDataTableSliceOffset = $dataTableSliceOffset + CronDatatableService::ROWS_PER_DATATABLE;
 		$newDataTablePageIndicator = $dataTablePageIndicator + 1;
 		$areNextRowsToShow = $newDataTableSliceOffset < $cronDataTableAllRowCount;
 
@@ -44,7 +44,7 @@ class MainTaskPresenter extends AbstractPresenter
 	public function handleShowLastRows(int $dataTableSliceOffset, int $dataTablePageIndicator): void
 	{
 		if ($dataTableSliceOffset !== 0) {
-			$newDataTableSliceOffset = $dataTableSliceOffset - 20;
+			$newDataTableSliceOffset = $dataTableSliceOffset - CronDatatableService::ROWS_PER_DATATABLE;
 			$newDataTablePageIndicator = $dataTablePageIndicator - 1;
 			$this->template->dataTableDataArray = $this->cronDatatableService->getCronDatatableArraySliced($newDataTableSliceOffset);
 			$this->template->dataTableSliceOffset = $newDataTableSliceOffset;

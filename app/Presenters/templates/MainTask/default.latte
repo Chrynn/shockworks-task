@@ -1,53 +1,59 @@
 {block content}
 
-<a n:href=":Home:">Home</a>
+<a n:href=":Home:" class="link-back">Home</a>
 
-<table>
-    <tr>
-        <td>
-            <span>ID</span>
-        </td>
-        <td>
-            <span>Name</span>
-        </td>
-        <td>
-            <span>Average time</span>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <span></span>
-        </td>
-        <td>
-            <span></span>
-        </td>
-        <td>
-            <span>filter</span>
-        </td>
-    </tr>
-    {foreach $dataTableDataArray as $dataTableData}
-    <tr>
-        <td>
-            <span>{$dataTableData['Cron Job ID']}</span>
-        </td>
-        <td>
-            <span>{$dataTableData['Cron Job Name']}</span>
-        </td>
-        <td>
-            <span>{$dataTableData['Prumerny cas provedeni']}</span>
-        </td>
-    </tr>
-    {/foreach}
-</table>
+<div class="datatable-wrap">
+    <div>
+        <table class="datatable">
+            <tr class="datatable-row-highlighted">
+                <td>
+                    <span>ID</span>
+                </td>
+                <td>
+                    <span>Name</span>
+                </td>
+                <td>
+                    <span>Average time (ms)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span></span>
+                </td>
+                <td>
+                    <span></span>
+                </td>
+                <td>
+                    <span>filter</span>
+                </td>
+            </tr>
+            {foreach $dataTableDataArray as $dataTableData}
+                <tr>
+                    <td>
+                        <span>{$dataTableData['Cron Job ID']}</span>
+                    </td>
+                    <td>
+                        <span>{$dataTableData['Cron Job Name']}</span>
+                    </td>
+                    <td>
+                        <span>{$dataTableData['Prumerny cas provedeni']|round}</span>
+                    </td>
+                </tr>
+            {/foreach}
+        </table>
 
-<div>
-    <a n:href="showLastRows! $dataTableSliceOffset, $dataTablePageIndicator">
-        <
-    </a>
+        <div class="datatable-controls-wrap">
+            <div>
+                <a n:href="showLastRows! $dataTableSliceOffset, $dataTablePageIndicator" class="datatable-control datatable-control-left">
+                    <
+                </a>
 
-    <span>Page {$dataTablePageIndicator}</span>
+                <span>Page {$dataTablePageIndicator}</span>
 
-    <a n:href="showNextRows! $dataTableSliceOffset, $dataTablePageIndicator">
-        >
-    </a>
+                <a n:href="showNextRows! $dataTableSliceOffset, $dataTablePageIndicator" class="datatable-control datatable-control-right">
+                    >
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
