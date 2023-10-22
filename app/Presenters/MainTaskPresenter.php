@@ -7,7 +7,7 @@ namespace App\Presenters;
 use App\Services\CronDatatable\CronDatatableService;
 use Nette\Application\UI\Form;
 
-class MainTaskPresenter extends AbstractPresenter
+class MainTaskPresenter extends BasePresenter
 {
 
 	public function __construct(protected CronDatatableService $cronDatatableService)

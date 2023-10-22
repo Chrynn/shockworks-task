@@ -4,10 +4,9 @@ declare(strict_types=1);
 
 namespace App\Presenters;
 
-class HomePresenter extends AbstractPresenter
+class HomePresenter extends BasePresenter
 {
 	public function actionDefault(): void
 	{
-
 	}
 }
