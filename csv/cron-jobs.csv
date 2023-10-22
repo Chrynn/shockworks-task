@@ -1,0 +1,252 @@
+Cron Job ID,Cron Job Name,Expression,URL,Email Me,Log,POST,Status,Prumerny cas provedeni,
+458364,Import produktů 4 na buvu.co.uk,45 3 * * *,URL CRONU 458364,if execution fail,10240,,enabled,32.348,0
+458363,Import produktů 3 na buvu.co.uk,40 3 * * *,URL CRONU 458363,if execution fail,10240,,enabled,92.669,0
+458362,Import produktů 2 na buvu.co.uk,35 3 * * *,URL CRONU 458362,if execution fail,10240,,enabled,80.403,0
+458360,Import produktů 1 na buvu.co.uk,30 3 * * *,URL CRONU 458360,if execution fail,10240,,enabled,84.406,0
+456640,Export faktur,10 * * * *,URL CRONU 456640,if execution fail,10240,,enabled,9.175,0
+455233,Vavrys import,20 4 * * *,URL CRONU 455233,never,10240,,enabled,463.765,0
+454851,Moofi synchro BG,48 * * * *,URL CRONU 454851,if execution fail,10240,,enabled,555.906,0
+452794,Actisport.cz Scott import,40 3 * * *,URL CRONU 452794,never,10240,,enabled,578.118,0
+452761,Notifikace rezervací o vypršení dnes CZ,5 17 * * *,URL CRONU 452761,never,10240,,enabled,14.049,0
+452760,Notifikace rezervací o vypršení dnes SK,5 17 * * *,URL CRONU 452760,never,10240,,enabled,39.691,0
+452759,Notifikace rezervací o vypršení dnes PL,5 17 * * *,URL CRONU 452759,never,10240,,enabled,1.109,0
+452758,Notifikace rezervací o vypršení dnes HU,5 17 * * *,URL CRONU 452758,never,10240,,enabled,2.293,0
+452757,Notifikace rezervací o vypršení dnes RO,5 17 * * *,URL CRONU 452757,never,10240,,enabled,1.864,0
+452756,Notifikace rezervací o vypršení za 2 dny CZ,0 17 * * *,URL CRONU 452756,never,10240,,enabled,39.995,0
+452755,Notifikace rezervací o vypršení za 2 dny SK,0 17 * * *,URL CRONU 452755,never,10240,,enabled,40.112,0
+452754,Notifikace rezervací o vypršení za 2 dny PL,0 17 * * *,URL CRONU 452754,never,10240,,enabled,1.301,0
+452753,Notifikace rezervací o vypršení za 2 dny HU,0 17 * * *,URL CRONU 452753,never,10240,,enabled,2.382,0
+452752,Notifikace rezervací o vypršení za 2 dny RO,0 17 * * *,URL CRONU 452752,never,10240,,enabled,2.652,0
+452749,Storno rezervací RO,30 23 * * *,URL CRONU 452749,never,10240,,enabled,8.184,0
+452748,Storno rezervací HU,30 23 * * *,URL CRONU 452748,never,10240,,enabled,8.755,0
+452746,Storno rezervací PL,30 23 * * *,URL CRONU 452746,never,10240,,enabled,1.442,0
+452744,Storno rezervací SK,30 23 * * *,URL CRONU 452744,never,10240,,enabled,31.005,0
+452742,Storno rezervací CZ,30 23 * * *,URL CRONU 452742,never,10240,,enabled,14.562,0
+452064,Import produktů 4 na donga.sk,15 3 * * *,URL CRONU 452064,if execution fail,10240,,enabled,24.406,0
+452063,Import produktů 3 na donga.sk,10 3 * * *,URL CRONU 452063,if execution fail,10240,,enabled,126.946,0
+452062,Import produktů 2 na donga.sk,5 3 * * *,URL CRONU 452062,if execution fail,10240,,enabled,116.538,0
+452061,Import produktů 4 na postershop.cz,45 3 * * *,URL CRONU 452061,if execution fail,10240,,enabled,20.737,0
+452060,Import produktů 3 na postershop.cz,40 3 * * *,URL CRONU 452060,if execution fail,10240,,enabled,75.411,0
+452057,Import produktů 2 na postershop.cz,35 3 * * *,URL CRONU 452057,if execution fail,10240,,enabled,75.527,0
+449431,Kontrola stavu platby pro CSOB branu CZ,"0,15,30,45 * * * *",URL CRONU 449431,if execution fail,10240,,enabled,1.973,0
+445684,Moofi.ro backup položek objednávek,23 * * * *,URL CRONU 445684,never,10240,,enabled,0.758,0
+445683,Moofi.hu backup položek objednávek,24 * * * *,URL CRONU 445683,never,10240,,enabled,0.572,0
+445682,Moofi.pl backup položek objednávek,29 * * * *,URL CRONU 445682,never,10240,,enabled,0.445,0
+445681,Moofi.sk backup položek objednávek,48 * * * *,URL CRONU 445681,never,10240,,enabled,0.386,0
+445675,Moofi.cz backup položek objednávek,41 * * * *,URL CRONU 445675,never,10240,,enabled,0.335,0
+441770,Nastavení parametrů kombinace materiálu a barevného provedení,"50 7,11,17 * * *",URL CRONU 441770,never,10240,,enabled,24.722,0
+439974,Import cen,15 * * * *,URL CRONU 439974,if execution fail,10240,,enabled,3.541,0
+438481,kutil.cz Nexmart export,52 0/2 * * *,URL CRONU 438481,never,10240,,enabled,2.871,0
+438354,Zbozi kategorie update,"0 0 * * 1,3,5",URL CRONU 438354,never,10240,,enabled,13.627,0
+438280,Alternative name search,30 * * * *,URL CRONU 438280,never,10240,,enabled,0.967,0
+438279,Alternative name search,30 * * * *,URL CRONU 438279,never,10240,,enabled,0.653,0
+438277,Alternative name search,30 * * * *,URL CRONU 438277,never,10240,,enabled,0.642,0
+430305,Delete old orders on gelf30,10 0/2 * * *,URL CRONU 430305,never,10240,,enabled,8.165,0
+428329,Info email about empty categories,0 7 * * *,URL CRONU 428329,never,10240,,enabled,2.026,0
+428306,Info email about empty categories,0 7 * * *,URL CRONU 428306,never,10240,,enabled,1.795,0
+426257,Delete old orders,48 * * * *,URL CRONU 426257,never,10240,,enabled,12.967,0
+425121,Actisport.cz sychro prepare,50 2 * * *,URL CRONU 425121,if execution fail,10240,,enabled,19.218,0
+425065,Actisport.cz synchro,25 * * * *,URL CRONU 425065,if execution fail,10240,,enabled,817.238,0
+422094,Hlídací kočka odeslání emailů,0/15 * * * *,URL CRONU 422094,if execution fail,10240,,enabled,0.593,0
+419441,Import fotek 2 na buvu.co.uk,39 1/3 * * *,URL CRONU 419441,if execution fail,10240,,enabled,6.403,0
+419439,Import fotek 1 na buvu.co.uk,30 4 * * *,URL CRONU 419439,if execution fail,10240,,enabled,32.077,0
+419429,Import fotek 2 na buvu.hu,44 2/3 * * *,URL CRONU 419429,if execution fail,10240,,enabled,12.973,0
+419428,Import fotek 1 na buvu.hu,30 4 * * *,URL CRONU 419428,if execution fail,10240,,enabled,71.12,0
+419427,Nastavení sloupce position dle prodejnosti na buvu.co.uk,"4,39 5 * * *",URL CRONU 419427,if execution fail,10240,,enabled,1.672,0
+419426,Nastavení sloupce position dle prodejnosti na buvu.hu,4 5 * * *,URL CRONU 419426,if execution fail,10240,,enabled,27.179,0
+419425,Report a smazání přebytečných obrázků na buvu.hu,"10,20 6 * * *",URL CRONU 419425,if execution fail,10240,,enabled,19.889,0
+419424,Report a smazání přebytečných obrázků na buvu.hu,10 6 * * *,URL CRONU 419424,if execution fail,10240,,enabled,77.823,0
+419421,Opravný script na přiřazení štítků produktům pro buvu.co.uk,"31,51 6 * * *",URL CRONU 419421,if execution fail,10240,,enabled,8.52,0
+419420,Opravný script na přiřazení štítků produktům pro buvu.hu,"34,51 6 * * *",URL CRONU 419420,if execution fail,10240,,enabled,0.974,82
+419415,Opravný script na přiřazení produktů ke kategorii pro buvu.co.uk,36 6 * * *,URL CRONU 419415,if execution fail,10240,,enabled,12.838,0
+419413,Opravný script na přiřazení produktů ke kategorii pro buvu.hu,39 6 * * *,URL CRONU 419413,if execution fail,10240,,enabled,0.433,41
+419411,Kontrola stavu platby pro CSOB branu CO.UK,"0,15,30,45 * * * *",URL CRONU 419411,if execution fail,10240,,disabled,0,0
+419410,Kontrola stavu platby pro CSOB branu HU,"0,15,30,45 * * * *",URL CRONU 419410,if execution fail,10240,,disabled,0,0
+418960,Florbal.com - processing Salming API,25 1/2 * * *,URL CRONU 418960,never,10240,,enabled,2.213,0
+418959,Florbal.com - processing Exesport API,5 1/2 * * *,URL CRONU 418959,never,10240,,enabled,3.61,0
+417563,Jadberg.eu Mazanie štítkov novinka,30 9 * * *,URL CRONU 417563,if execution fail,10240,,enabled,0.261,0
+413947,Kontrola stavu platby pro CSOB branu SK,"0,15,30,45 * * * *",URL CRONU 413947,if execution fail,10240,,enabled,0.662,0
+410591,,"0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58 * * * *",URL CRONU 410591,never,10240,,disabled,0.938,0
+408573,Sportby.sk Označení slevovými štítky,30 9 * * *,URL CRONU 408573,if execution fail,10240,,enabled,0.922,0
+402338,Stav objednavek,0 * * * *,URL CRONU 402338,never,10240,,enabled,11.91,0
+399662,Import individuálních cen zákazníků do Alfaxu,"40 7,11,17 * * *",URL CRONU 399662,never,10240,,enabled,2.307,0
+399654,Import objednávek do Alfaxu,"40 7,11,17 * * *",URL CRONU 399654,never,10240,,enabled,3.111,0
+399639,Export objednávek z Alfaxu,4/10 * * * *,URL CRONU 399639,never,10240,,enabled,1.397,0
+399179,Smazání štítku Novinka,45 3 * * *,URL CRONU 399179,never,10240,,enabled,13.577,0
+399146,Automatizované testovací skripty,0 7 * * *,URL CRONU 399146,never,10240,,disabled,6.481,0
+399128,Import skladových karet do Alfaxu,"40 7,11,17 * * *",URL CRONU 399128,never,10240,,enabled,125.364,0
+391609,Mobilplud products count check,3/5 * * * *,URL CRONU 391609,never,10240,,enabled,0.464,0
+389027,Motostar alternativni nazvy,"0 0,4,8,12,16,20 * * *",URL CRONU 389027,never,10240,,enabled,2.857,0
+387328,Florbalstore komplet importy,"0 0,2,4,6,8,10,12,14,16,18,20,22 * * *",URL CRONU 387328,if execution fail,10240,,enabled,21.873,0
+384269,"Odebrání příznaku enable produktům, které jsou archivovány",15 3 * * *,URL CRONU 384269,never,10240,,enabled,1.352,0
+382535,Report a smazání přebytečných obrázků na postershop.cz,20 4 * * *,URL CRONU 382535,if execution fail,10240,,enabled,23.28,0
+382534,Report a smazání přebytečných obrázků na donga.sk,20 4 * * *,URL CRONU 382534,if execution fail,10240,,enabled,24.802,0
+381833,Import fotek 2 na donga.sk,44 2/3 * * *,URL CRONU 381833,if execution fail,10240,,enabled,7,0
+381832,Import fotek 1 na donga.sk,30 4 * * *,URL CRONU 381832,if execution fail,10240,,enabled,7.479,0
+381831,Import fotek 2 na postershop.cz,4 2/3 * * *,URL CRONU 381831,if execution fail,10240,,enabled,4.423,0
+381830,Import fotek 1 na postershop.cz,30 4 * * *,URL CRONU 381830,if execution fail,10240,,enabled,7.504,0
+380114,Moofi synchro HU,36 * * * *,URL CRONU 380114,if execution fail,10240,,enabled,258.101,0
+380113,Moofi synchro SK,24 * * * *,URL CRONU 380113,if execution fail,10240,,enabled,194.034,0
+380112,Moofi synchro RO,12 * * * *,URL CRONU 380112,if execution fail,10240,,enabled,203.786,0
+379089,Report a smazání přebytečných obrázků na donga.sk,0 6 * * *,URL CRONU 379089,if execution fail,10240,,enabled,20.111,0
+363013,Kontrola stavu platby pro CSOB branu CZ,"0,15,30,45 * * * *",URL CRONU 363013,if execution fail,10240,,enabled,0.733,0
+361403,Synchro florbal.com EU,41 1/3 * * *,URL CRONU 361403,if execution fail,10240,,enabled,32.526,0
+361401,Synchro florbal.com SK,8 1/3 * * *,URL CRONU 361401,if execution fail,10240,,enabled,29.811,0
+361400,Synchro florbal.com Florbalshop,31 1/3 * * *,URL CRONU 361400,if execution fail,10240,,enabled,44.582,0
+359115,Synchro motostar,55 0/2 * * *,URL CRONU 359115,if execution fail,10240,,enabled,7.548,0
+357835,Hlídací kočka odeslání emailů,9/15 * * * *,URL CRONU 357835,if execution fail,10240,,enabled,0.515,0
+357833,Hlídací kočka odeslání emailů,1/15 * * * *,URL CRONU 357833,if execution fail,10240,,enabled,0.577,0
+357342,Opravný script na přiřazení štítků produktům pro donga.sk,51 6 * * *,URL CRONU 357342,if execution fail,10240,,enabled,8.668,0
+357341,Opravný script na přiřazení štítků produktům pro postershop.cz,49 6 * * *,URL CRONU 357341,if execution fail,10240,,enabled,8.825,0
+357340,Opravný script na přiřazení produktů ke kategorii pro donga.sk,47 6 * * *,URL CRONU 357340,if execution fail,10240,,enabled,16.292,0
+357339,Opravný script na přiřazení produktů ke kategorii pro postershop.cz,45 6 * * *,URL CRONU 357339,if execution fail,10240,,enabled,17.829,0
+351286,Report a smazání přebytečných obrázků na postershop.cz,30 6 * * *,URL CRONU 351286,if execution fail,10240,,enabled,19.237,0
+348385,"Comparato, automatic Facebook posts",54 0/6 * * *,URL CRONU 348385,never,10240,,enabled,0.799,0
+345856,Import dostupností na kolacihal.cz,5 1 * * *,URL CRONU 345856,if execution fail,10240,,enabled,34.974,0
+345843,"Nastavení pořadí produktů ""Doporučujeme"" na kolacihal.cz",5 2 * * *,URL CRONU 345843,if execution fail,10240,,enabled,41.366,0
+345309,Naninails.sk Update vydejnich mist,20 1 * * *,URL CRONU 345309,if execution fail,10240,,enabled,51.02,267
+345308,Naninails.cz Update vydejnich mist,20 1 * * *,URL CRONU 345308,if execution fail,10240,,enabled,25.902,267
+343848,kola-cihal.cz Označení slevovými štítky,57 0 * * *,URL CRONU 343848,if execution fail,10240,,enabled,13.148,0
+342320,Generování CSV pro Google Nákupy na donga.sk,30 5 * * *,URL CRONU 342320,if execution fail,10240,,enabled,8.477,0
+342255,Import produktů na donga.sk,0 3 * * *,URL CRONU 342255,if execution fail,10240,,enabled,134.886,0
+342254,Import produktů na postershop.cz,30 3 * * *,URL CRONU 342254,if execution fail,10240,,enabled,78.83,0
+340768,moofi.ro emailing vip 5,59 7 * * *,URL CRONU 340768,if execution fail,10240,user=admin&pass=27706818,enabled,55.046,0
+340767,moofi.ro emailing vip 4,57 7 * * *,URL CRONU 340767,if execution fail,10240,user=admin&pass=27706818,enabled,53.68,0
+340766,moofi.ro emailing vip 3,55 7 * * *,URL CRONU 340766,if execution fail,10240,user=admin&pass=27706818,enabled,30.306,0
+340765,moofi.ro emailing vip 2,53 7 * * *,URL CRONU 340765,if execution fail,10240,user=admin&pass=27706818,enabled,108.713,0
+340761,moofi.hu emailing vip 5,58 7 * * *,URL CRONU 340761,if execution fail,10240,user=admin&pass=27706818,enabled,26.167,0
+340760,moofi.hu emailing vip 4,56 7 * * *,URL CRONU 340760,if execution fail,10240,user=admin&pass=27706818,enabled,29.948,0
+340759,moofi.hu emailing vip 3,54 7 * * *,URL CRONU 340759,if execution fail,10240,user=admin&pass=27706818,enabled,59.864,0
+340758,moofi.hu emailing vip 2,52 7 * * *,URL CRONU 340758,if execution fail,10240,user=admin&pass=27706818,enabled,100.22,0
+340757,moofi.pl emailing vip 5,59 7 * * *,URL CRONU 340757,if execution fail,10240,user=admin&pass=27706818,enabled,1.892,0
+340756,moofi.pl emailing vip 4,57 7 * * *,URL CRONU 340756,if execution fail,10240,user=admin&pass=27706818,enabled,2.183,0
+340755,moofi.pl emailing vip 3,55 7 * * *,URL CRONU 340755,if execution fail,10240,user=admin&pass=27706818,enabled,1.806,0
+340754,moofi.pl emailing vip 2,53 7 * * *,URL CRONU 340754,if execution fail,10240,user=admin&pass=27706818,enabled,2.172,0
+340753,moofi.sk emailing vip 5,58 7 * * *,URL CRONU 340753,if execution fail,10240,user=admin&pass=27706818,enabled,51.461,0
+340752,moofi.sk emailing vip 4,56 7 * * *,URL CRONU 340752,if execution fail,10240,user=admin&pass=27706818,enabled,42.28,0
+340751,moofi.sk emailing vip 3,54 7 * * *,URL CRONU 340751,if execution fail,10240,user=admin&pass=27706818,enabled,89.879,0
+340750,moofi.sk emailing vip 2,52 7 * * *,URL CRONU 340750,if execution fail,10240,user=admin&pass=27706818,enabled,111.233,0
+340747,moofi.cz emailing vip 5,58 7 * * *,URL CRONU 340747,if execution fail,10240,user=admin&pass=27706818,enabled,60.071,0
+340746,moofi.cz emailing vip 4,56 7 * * *,URL CRONU 340746,if execution fail,10240,user=admin&pass=27706818,enabled,51.2,0
+340745,moofi.cz emailing vip 3,54 7 * * *,URL CRONU 340745,if execution fail,10240,user=admin&pass=27706818,enabled,83.237,0
+340744,moofi.cz emailing vip 2,52 7 * * *,URL CRONU 340744,if execution fail,10240,user=admin&pass=27706818,enabled,124.352,0
+340741,moofi.ro emailing zítřejšáky 5,18 21 * * *,URL CRONU 340741,if execution fail,10240,user=admin&pass=27706818,enabled,68.204,0
+340740,moofi.ro emailing zítřejšáky 4,16 21 * * *,URL CRONU 340740,if execution fail,10240,user=admin&pass=27706818,enabled,79.566,0
+340738,moofi.ro emailing zítřejšáky 3,14 21 * * *,URL CRONU 340738,if execution fail,10240,user=admin&pass=27706818,enabled,122.718,0
+340737,moofi.ro emailing zítřejšáky 2,12 21 * * *,URL CRONU 340737,if execution fail,10240,user=admin&pass=27706818,enabled,168.472,0
+340735,moofi.hu emailing zítřejšáky 5,8 21 * * *,URL CRONU 340735,if execution fail,10240,user=admin&pass=27706818,enabled,35.309,0
+340734,moofi.hu emailing zítřejšáky 4,6 21 * * *,URL CRONU 340734,if execution fail,10240,user=admin&pass=27706818,enabled,41.973,0
+340733,moofi.hu emailing zítřejšáky 3,4 21 * * *,URL CRONU 340733,if execution fail,10240,user=admin&pass=27706818,enabled,48.657,0
+340732,moofi.hu emailing zítřejšáky 2,2 21 * * *,URL CRONU 340732,if execution fail,10240,user=admin&pass=27706818,enabled,59.145,0
+340729,moofi.pl emailing zítřejšáky 5,58 20 * * *,URL CRONU 340729,if execution fail,10240,user=admin&pass=27706818,enabled,5.886,0
+340727,moofi.pl emailing zítřejšáky 4,56 20 * * *,URL CRONU 340727,if execution fail,10240,user=admin&pass=27706818,enabled,5.722,0
+340726,moofi.pl emailing zítřejšáky 3,54 20 * * *,URL CRONU 340726,if execution fail,10240,user=admin&pass=27706818,enabled,5.736,0
+340725,moofi.pl emailing zítřejšáky 2,52 20 * * *,URL CRONU 340725,if execution fail,10240,user=admin&pass=27706818,enabled,6.146,0
+340723,moofi.sk emailing zítřejšáky 5,48 20 * * *,URL CRONU 340723,if execution fail,10240,user=admin&pass=27706818,enabled,43.831,0
+340722,moofi.sk emailing zítřejšáky 4,46 20 * * *,URL CRONU 340722,if execution fail,10240,user=admin&pass=27706818,enabled,68.47,0
+340721,moofi.sk emailing zítřejšáky 3,44 20 * * *,URL CRONU 340721,if execution fail,10240,user=admin&pass=27706818,enabled,61.335,0
+340720,moofi.sk emailing zítřejšáky 2,42 20 * * *,URL CRONU 340720,if execution fail,10240,user=admin&pass=27706818,enabled,87.603,0
+340717,moofi.cz emailing zítřejšáky 5,38 20 * * *,URL CRONU 340717,if execution fail,10240,user=admin&pass=27706818,enabled,80.932,0
+340715,moofi.cz emailing zítřejšáky 4,36 20 * * *,URL CRONU 340715,if execution fail,10240,user=admin&pass=27706818,enabled,95.702,0
+340714,moofi.cz emailing zítřejšáky 3,34 20 * * *,URL CRONU 340714,if execution fail,10240,user=admin&pass=27706818,enabled,148.985,0
+340713,moofi.cz emailing zítřejšáky 2,32 20 * * *,URL CRONU 340713,if execution fail,10240,user=admin&pass=27706818,enabled,184.832,0
+337814,kutil deaktivace vyprodanych produktu,56 1/2 * * *,URL CRONU 337814,if execution fail,10240,,enabled,16.369,0
+337292,kutil kontrola reprezentativnich produktu,"0,30 * * * *",URL CRONU 337292,if execution fail,10240,,enabled,12.986,0
+337290,kutil export objednavek,"0,10,20,30,40,50 * * * *",URL CRONU 337290,if execution fail,10240,,enabled,2.068,0
+337288,kutil import skladu,"15,45 * * * *",URL CRONU 337288,if execution fail,10240,,enabled,138.165,0
+328353,Motostar full stock import,"5,35 * * * *",URL CRONU 328353,if execution fail,10240,,disabled,28.181,0
+325652,Export produktu do flexi,"2,17,32,47 * * * *",URL CRONU 325652,if execution fail,10240,,disabled,130.612,0
+325649,Nastavení sloupce position dle prodejnosti na donga.sk,10 5 * * *,URL CRONU 325649,if execution fail,10240,,enabled,3.742,0
+325648,Nastavení sloupce position dle prodejnosti na postershop.cz,0 5 * * *,URL CRONU 325648,if execution fail,10240,,enabled,4.092,0
+323263,Zrušení topovaných produktů,30 7 * * *,URL CRONU 323263,if execution fail,10240,,enabled,26.157,0
+320323,Import fotografií z hdt.cz,0 3 * * *,URL CRONU 320323,if execution fail,10240,,enabled,62.687,0
+320322,Import produktů z hdt.cz,0 2 * * *,URL CRONU 320322,if execution fail,10240,,enabled,57.432,0
+320320,Import produktů z kytary.cz,0 1 * * *,URL CRONU 320320,if execution fail,10240,,enabled,48.033,0
+317194,Moofi synchro chytrý update edit_datetime,3 0/2 * * *,URL CRONU 317194,if execution fail,10240,,disabled,21.473,0
+314264,Export objednavek do flexi,"0,15,30,45 * * * *",URL CRONU 314264,if execution fail,10240,,enabled,2.281,0
+313282,Synchronizace profi-dj.cz na profi-dj.pl,45 * * * *,URL CRONU 313282,if execution fail,10240,,enabled,20.441,0
+303854,Nastavení globální slevy dle happy hours na sapacom.cz,0 * * * *,URL CRONU 303854,if execution fail,10240,,enabled,0.338,0
+303850,Nastavení happy hours pro daný den na sapacom.cz,15 1 * * *,URL CRONU 303850,if execution fail,10240,,enabled,13.093,0
+297781,Nastavení doprav zdarma na produktech pro všechny mutace,15 1 * * *,URL CRONU 297781,if execution fail,10240,,enabled,14.167,0
+297717,PROFI dj.cz Silverpop Export,4 2 * * *,URL CRONU 297717,if execution fail,10240,,enabled,13.864,0
+294383,moofi.ro emailing vip 1,51 7 * * *,URL CRONU 294383,if execution fail,10240,user=admin&pass=27706818,enabled,131.559,0
+294382,moofi.hu emailing vip 1,50 7 * * *,URL CRONU 294382,if execution fail,10240,user=admin&pass=27706818,enabled,127.228,0
+294381,moofi.pl emailing vip 1,51 7 * * *,URL CRONU 294381,if execution fail,10240,user=admin&pass=27706818,enabled,19.238,0
+294380,moofi.sk emailing vip 1,50 7 * * *,URL CRONU 294380,if execution fail,10240,user=admin&pass=27706818,enabled,164.164,0
+294379,moofi.cz emailing vip 1,50 7 * * *,URL CRONU 294379,if execution fail,10240,user=admin&pass=27706818,enabled,153.924,0
+294367,Publikování produktů moofi.ro,0 9 * * *,URL CRONU 294367,if execution fail,10240,,enabled,0.864,0
+294366,Publikování produktů moofi.hu,0 9 * * *,URL CRONU 294366,if execution fail,10240,,enabled,0.918,0
+294365,Publikování produktů moofi.pl,0 9 * * *,URL CRONU 294365,if execution fail,10240,,enabled,0.663,0
+294363,Publikování produktů moofi.sk,0 9 * * *,URL CRONU 294363,if execution fail,10240,,enabled,25.698,0
+294359,Publikování produktů moofi.cz,0 9 * * *,URL CRONU 294359,if execution fail,10240,,enabled,25.719,0
+294358,Publikování produktů pro VIP moofi.ro,0 8 * * *,URL CRONU 294358,if execution fail,10240,,enabled,0.463,0
+294357,Publikování produktů pro VIP moofi.hu,0 8 * * *,URL CRONU 294357,if execution fail,10240,,enabled,0.413,0
+294356,Publikování produktů pro VIP moofi.pl,0 8 * * *,URL CRONU 294356,if execution fail,10240,,enabled,0.582,0
+294355,Publikování produktů pro VIP moofi.sk,0 8 * * *,URL CRONU 294355,if execution fail,10240,,enabled,13.174,0
+294353,Publikování produktů pro VIP moofi.cz,0 8 * * *,URL CRONU 294353,if execution fail,10240,,enabled,25.929,0
+286885,Archivace produktů na naninails.cz,15 23 * * *,URL CRONU 286885,if execution fail,10240,,enabled,0.696,0
+280368,Naninails.cz synchro preparation,15 3 * * *,URL CRONU 280368,never,10240,,enabled,1.323,0
+276490,moofi.ro emailing zítřejšáky 1,10 21 * * *,URL CRONU 276490,if execution fail,10240,user=admin&pass=27706818,enabled,213.772,0
+276489,moofi.hu emailing zítřejšáky 1,0 21 * * *,URL CRONU 276489,if execution fail,10240,user=admin&pass=27706818,enabled,98.598,0
+276488,moofi.pl emailing zítřejšáky 1,50 20 * * *,URL CRONU 276488,if execution fail,10240,user=admin&pass=27706818,enabled,30.23,0
+276485,moofi.sk emailing zítřejšáky 1,40 20 * * *,URL CRONU 276485,if execution fail,10240,user=admin&pass=27706818,enabled,128.291,0
+276388,moofi.cz emailing zítřejšáky 1,30 20 * * *,URL CRONU 276388,if execution fail,10240,user=admin&pass=27706818,enabled,238.899,0
+276294,Naninails.sk FIO,6/30 * * * *,URL CRONU 276294,if execution fail,10240,,enabled,0.86,0
+274764,Moofi synchro PL,0 * * * *,URL CRONU 274764,if execution fail,10240,,enabled,216.303,0
+274761,Moofi synchro prepare,27 3 * * *,URL CRONU 274761,if execution fail,10240,,disabled,0,0
+274226,Promazání starých akcí uživatelů,0 1 * * *,URL CRONU 274226,if execution fail,10240,,enabled,2.646,0
+272318,Actiski.cz synchro prepare,53 2 * * *,URL CRONU 272318,if execution fail,10240,,disabled,2.689,0
+272298,Import skladu spinalis-chairs.ca,43 1 * * *,URL CRONU 272298,if execution fail,10240,,enabled,14.46,0
+268966,Import transakcí na Florbal-shop,19/30 * * * *,URL CRONU 268966,if execution fail,10240,,enabled,4.339,0
+268962,Import transakcí na Florbal.com,10/30 * * * *,URL CRONU 268962,if execution fail,10240,,enabled,23.936,0
+268681,Moofi synchro prepare,27 3 * * *,URL CRONU 268681,never,10240,,disabled,0,0
+266131,Moofi synchro,2 0/2 * * *,URL CRONU 266131,if execution fail,10240,,disabled,0,0
+265049,Actiski.cz Synchro,47 * * * *,URL CRONU 265049,if execution fail,10240,,disabled,35.797,37
+262992,Jadberg.eu synchronizace,17 1/2 * * *,URL CRONU 262992,if execution fail,10240,,disabled,16.742,0
+262730,Software-deals.ro Update Mailchimp Dat,0 1 * * *,URL CRONU 262730,if execution fail,10240,,enabled,704.009,10
+262729,Kedvezmenyes-software.hu Update Mailchimp Dat,0 1 * * *,URL CRONU 262729,if execution fail,10240,,disabled,0,0
+262728,Oplacalny-software.pl Update Mailchimp Dat,0 1 * * *,URL CRONU 262728,if execution fail,10240,,enabled,667.27,202
+262727,Vyhodny-software.sk Update Mailchimp Dat,0 1 * * *,URL CRONU 262727,if execution fail,10240,,enabled,259.291,39
+262150,Import.florbalstore.cz,37 * * * *,URL CRONU 262150,if execution fail,10240,,disabled,0.371,0
+254060,moofi.cz Označení štítku novinka,34 * * * *,URL CRONU 254060,if execution fail,10240,,enabled,0.265,0
+254057,moofi.cz Označení slevovými štítky,28 * * * *,URL CRONU 254057,if execution fail,10240,,enabled,0.314,0
+250874,Mailchimp mergetags update,0 1 * * *,URL CRONU 250874,if execution fail,10240,,enabled,201.871,0
+248350,moofi.cz FIO,27/30 * * * *,URL CRONU 248350,if execution fail,10240,,enabled,1.246,0
+237037,Naninails.cz synchro,4 1/2 * * *,URL CRONU 237037,if execution fail,10240,,enabled,188.631,0
+226414,Florbal.com Update editdatetime pro synchronizaci,"17 1,3 * * *",URL CRONU 226414,if execution fail,10240,,enabled,1.769,0
+226239,Florbalstore.cz Synchronizace,36 1/2 * * *,URL CRONU 226239,if execution fail,10240,,enabled,91.619,0
+226233,Coqui.shoes Synchronizace,42 0/2 * * *,URL CRONU 226233,if execution fail,10240,,enabled,163.538,0
+220552,SK Florbal com FIO import,11/30 * * * *,URL CRONU 220552,if execution fail,10240,,enabled,1.337,0
+219265,Naninails.cz Označení slevovými štítky,0 3 * * *,URL CRONU 219265,if execution fail,10240,,disabled,0.712,0
+214765,Naninails.cz FIO,26/30 * * * *,URL CRONU 214765,if execution fail,10240,,enabled,1.169,0
+196948,Import stavů objednávek coqui.com.ua,18/30 * * * *,URL CRONU 196948,if execution fail,10240,,enabled,1.084,772
+196947,Import produktových dat coqui.com.ua,12/30 * * * *,URL CRONU 196947,if execution fail,10240,,enabled,3.21,0
+196375,Jadberg.eu synchro,31 * * * *,URL CRONU 196375,if execution fail,10240,,enabled,16.939,0
+194304,Import skladove dostupnosti,1/10 * * * *,URL CRONU 194304,if execution fail,10240,,disabled,0,2501
+194302,Mobilplus.cz Order export to Vario,3/5 * * * *,URL CRONU 194302,if execution fail,10240,,enabled,0.94,0
+185026,Cleaner,0 8 * * *,URL CRONU 185026,if execution fail,10240,,disabled,2.359,0
+179273,Kontrola dat ve sklad. systému,50 2/3 * * *,URL CRONU 179273,if execution fail,10240,,disabled,0,0
+179272,Kontrola dat ve sklad. systému,28 0/3 * * *,URL CRONU 179272,if execution fail,10240,,disabled,0,0
+173883,Florbal.com DataProcessorModule (tvorba parametrů dle názvů variant),0 2 * * *,URL CRONU 173883,if execution fail,10240,,enabled,88.399,0
+168138,Překlad do slovenštiny bambilon.sk,0 6 * * *,URL CRONU 168138,if execution fail,10240,,disabled,0,0
+98460,Bambilon.cz Aktualizace fotografií pro účely synchronizace,0 1 * * *,URL CRONU 98460,if execution fail,10240,,enabled,21.602,0
+97578,Import transakcí z FIO banky profi-dj.cz,27/30 * * * *,URL CRONU 97578,if execution fail,10240,,enabled,1.813,0
+97577,Profi-dj.sk Import transakcí z FIO banky,2/30 * * * *,URL CRONU 97577,if execution fail,10240,,enabled,1.851,0
+97507,PROFI dj.cz Silverpop Export,1 2 * * *,URL CRONU 97507,if execution fail,10240,,enabled,63.65,0
+97494,Profi-dj.cz Aktualizace edit_datetime fotografií,"14 1,3 * * *",URL CRONU 97494,if execution fail,10240,,enabled,0.691,0
+90287,Impor florbalstore.cz Update edit_datetime,30 0 * * *,URL CRONU 90287,if execution fail,10240,,enabled,15.023,0
+89712,Import.coqui.shoes Update edit_datetime pro synchronizaci,0 2 * * *,URL CRONU 89712,if execution fail,10240,,enabled,1.049,0
+89711,Import stavů objednávek coqui.pl,1/30 * * * *,URL CRONU 89711,if execution fail,10240,,enabled,1.122,0
+89710,Coqui.sk Import stavů objednávek,19/30 * * * *,URL CRONU 89710,if execution fail,10240,,enabled,2.882,0
+89709,Coqui.cz Import stavů objednávek,12/30 * * * *,URL CRONU 89709,if execution fail,10240,,enabled,96.372,0
+89708,Coqui.pl Import produktových dat,13/30 * * * *,URL CRONU 89708,if execution fail,10240,,enabled,4.347,0
+89707,Coqui.sk Import produktových dat,0/30 * * * *,URL CRONU 89707,if execution fail,10240,,enabled,5.19,0
+89706,Coqui.cz Import produktových dat,29/30 * * * *,URL CRONU 89706,if execution fail,10240,,enabled,4.805,0
+56665,Check DB,4/5 * * * *,URL CRONU 56665,if execution fail,10240,,enabled,0.291,0
+52309,Jadberg.eu Import skladových dostupností,53 1/2 * * *,URL CRONU 52309,if execution fail,10240,,enabled,3.307,0
+51887,Aurenis.cz Import produktů,30 2 * * *,URL CRONU 51887,if execution fail,10240,,enabled,31.297,82
+43661,Synchro florbal.com,30 6 * * *,URL CRONU 43661,if execution fail,10240,,enabled,52.204,0
+43660,Synchro florbalstore.cz,15 6 * * *,URL CRONU 43660,if execution fail,10240,,enabled,63.083,0
+42374,Synchronizace profi-dj.cz na profi-dj.sk,15 * * * *,URL CRONU 42374,if execution fail,10240,,enabled,21.731,0
+41619,Synchro bambilon.cz,7 0/2 * * *,URL CRONU 41619,if execution fail,10240,,enabled,544.493,413
+41617,Synchro florbal.com,48 0/3 * * *,URL CRONU 41617,if execution fail,10240,,disabled,0,0

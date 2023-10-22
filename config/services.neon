@@ -7,3 +7,5 @@ search:
 
 services:
 	- App\Router\RouterFactory::createRouter
+	- App\Services\Csv\CsvService
+	- App\Services\CronDatatable\CronDatatableService
