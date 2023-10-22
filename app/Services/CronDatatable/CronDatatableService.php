@@ -15,11 +15,17 @@ class CronDatatableService implements CronDatatableServiceInterface
 	{
 	}
 
+	/**
+	 * @return array<numeric, array>
+	 */
 	public function getCronDatatableArray(): array
 	{
 		return $this->csvService->getArrayFromCsv(self::CRON_CSV_PATH);
 	}
 
+	/**
+	 * @return array<numeric, array>
+	 */
 	public function getCronDatatableArraySliced(array $cronDatatableArray, int $dataTableSliceOffset): array
 	{
 		return array_slice($cronDatatableArray, $dataTableSliceOffset, self::ROWS_PER_DATATABLE, true);
@@ -35,6 +41,9 @@ class CronDatatableService implements CronDatatableServiceInterface
 		return (int) ceil($cronDataTableRowCount / self::ROWS_PER_DATATABLE);
 	}
 
+	/**
+	 * @return array<numeric, array>
+	 */
 	public function getCronDatatableArrayFilteredByTime(array $cronDatatableArray, int $timeFrom, int $timeTo): array
 	{
 		return array_filter($cronDatatableArray, function ($row) use ($timeFrom, $timeTo) {
