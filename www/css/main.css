@@ -114,3 +114,174 @@ form {
 .datatable-filter-time-heading {
     font-weight: bold;
 }
+
+/* Bonus */
+
+.header {
+    background: #404042;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+}
+
+.header-heading {
+    padding: 0 48px;
+    color: white;
+    font-weight: normal;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header-list-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.header-item-text {
+    margin-left: 10px;
+}
+
+.header-item-box {
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-checkbox {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.header-item-text-box {
+    display: flex;
+    align-items: center;
+}
+
+.header-item-active {
+    background: #4a4a4c;
+}
+
+.text-rotated-blue-wrap {
+    background: #2698ba;
+}
+
+.text-rotated-green-wrap {
+    background: #60c782;
+}
+
+.text-rotated-purple-wrap {
+    background: #9f89db;
+}
+
+.text-rotated-red-wrap {
+    background: #f6594a;
+}
+
+.text-rotated-wrap {
+    border-right: 7px solid white;
+}
+
+.text-rotated {
+    font-family: Arial;
+    color: white;
+    transform: rotate(-90deg);
+    display: block;
+    text-align: center;
+}
+
+.table-box {
+    padding: 20px 20px 15px 20px;
+    font-family: Arial;
+    width: 450px;
+}
+
+.table-box-heading {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.table-box-description {
+    font-size: 12px;
+}
+
+.box-grey {
+    background: #f9f9f9;
+}
+
+.box-green {
+    background: #e3ecbf;
+}
+
+.box-green .table-box-heading{
+    color: #90a732;
+}
+
+.box-green .text-box-input {
+    accent-color: #90a732;
+}
+
+.table-box-input-wrap {
+    padding: 0 0 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.text-box-input {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    accent-color: #e2e2e2;
+}
+
+.text-box-input:before {
+    color: #4a4a4c;
+}
+
+.checkbox-green {
+    accent-color: #91a92d;
+}
+
+.table-box-flexer {
+    display: flex;
+}
+
+.table {
+    border: none;
+    margin-bottom: 150px;
+}
+
+.table td{
+    border-top: 25px solid white;
+}
+
+.box-special-box {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
