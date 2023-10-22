@@ -15,39 +15,32 @@ class CronDatatableService
 	{
 	}
 
-	private function getCronDatatableArray(): array
+	public function getCronDatatableArray(): array
 	{
 		return $this->csvService->getArrayFromCsv(self::CRON_CSV_PATH);
 	}
 
-	public function getCronDatatableArraySliced(int $dataTableSliceOffset): array
+	public function getCronDatatableArraySliced(array $cronDatatableArray, int $dataTableSliceOffset): array
 	{
-		return array_slice($this->getCronDatatableArray(), $dataTableSliceOffset, self::ROWS_PER_DATATABLE, true);
+		return array_slice($cronDatatableArray, $dataTableSliceOffset, self::ROWS_PER_DATATABLE, true);
 	}
 
-	public function getCronDataTableAllRowCount(): int
+	public function getCronDatatableArrayRowCount(array $cronDatatableArray): int
 	{
-		return count($this->csvService->getArrayFromCsv(self::CRON_CSV_PATH));
+		return count($cronDatatableArray);
 	}
 
-	public function getCronDatatableFilteredByTime(int $timeFrom, int $timeTo): array
+	public function getCronDatatablePageCount(int $cronDataTableRowCount): int
 	{
-		$cronDataTableArray = $this->getCronDatatableArray();
+		return (int) ceil($cronDataTableRowCount / self::ROWS_PER_DATATABLE);
+	}
 
-		return array_filter($cronDataTableArray, function ($row) use ($timeFrom, $timeTo) {
+	public function getCronDatatableArrayFilteredByTime(array $cronDatatableArray, int $timeFrom, int $timeTo): array
+	{
+		return array_filter($cronDatatableArray, function ($row) use ($timeFrom, $timeTo) {
 			$averageTime = $row['Prumerny cas provedeni'];
 
 			return $averageTime >= $timeFrom && $averageTime <= $timeTo;
 		});
-	}
-
-	public function getCronDatatableFilteredBytTimeCount(int $timeFrom, int $timeTo): int
-	{
-		return count($this->getCronDatatableFilteredByTime($timeFrom, $timeTo));
-	}
-
-	public function getCronDatatableFilteredByTimeSliced(int $timeFrom, int $timeTo, int $dataTableSliceOffset): array
-	{
-		return array_slice($this->getCronDatatableFilteredByTime($timeFrom, $timeTo), $dataTableSliceOffset, self::ROWS_PER_DATATABLE, true);
 	}
 }
