@@ -17,18 +17,7 @@ class MainTaskPresenter extends AbstractPresenter
 
 	public function actionDefault(): void
 	{
-		$dataTableSliceOffset = 0;
-		$dataTablePageIndicator = 1;
-		$cronDataTableArray = $this->cronDatatableService->getCronDatatableArray();
-		$cronDatatableArrayRowCount = $this->cronDatatableService->getCronDatatableArrayRowCount($cronDataTableArray);
-
-		$this->template->dataTableDataArray = $this->cronDatatableService->getCronDatatableArraySliced($cronDataTableArray, $dataTableSliceOffset);
-		$this->template->dataTableSliceOffset = $dataTableSliceOffset;
-		$this->template->dataTablePageIndicator = $dataTablePageIndicator;
-		$this->template->dataTablePageIndicatorTotal = $this->cronDatatableService->getCronDatatablePageCount($cronDatatableArrayRowCount);
-		$this->template->dataTableFilterByTimeStatus = false;
-		$this->template->dataTableTimeFilterTimeFrom = null;
-		$this->template->dataTableTimeFilterTimeTo = null;
+		$this->handleResetFilter();
 	}
 
 	public function handleShowNextRows(
@@ -156,10 +145,12 @@ class MainTaskPresenter extends AbstractPresenter
 		$dataTableSliceOffset = 0;
 		$dataTablePageIndicator = 1;
 		$cronDataTableArray = $this->cronDatatableService->getCronDatatableArray();
+		$cronDatatableArrayRowCount = $this->cronDatatableService->getCronDatatableArrayRowCount($cronDataTableArray);
 
 		$this->template->dataTableDataArray = $this->cronDatatableService->getCronDatatableArraySliced($cronDataTableArray, $dataTableSliceOffset);
 		$this->template->dataTableSliceOffset = $dataTableSliceOffset;
 		$this->template->dataTablePageIndicator = $dataTablePageIndicator;
+		$this->template->dataTablePageIndicatorTotal = $this->cronDatatableService->getCronDatatablePageCount($cronDatatableArrayRowCount);
 		$this->template->dataTableFilterByTimeStatus = false;
 		$this->template->dataTableTimeFilterTimeFrom = null;
 		$this->template->dataTableTimeFilterTimeTo = null;
