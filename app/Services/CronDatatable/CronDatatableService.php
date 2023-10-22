@@ -6,7 +6,7 @@ namespace App\Services\CronDatatable;
 
 use App\Services\Csv\CsvService;
 
-class CronDatatableService
+class CronDatatableService implements CronDatatableServiceInterface
 {
 	public const ROWS_PER_DATATABLE = 20;
 	private const CRON_CSV_PATH = '../csv/cron-jobs.csv';
