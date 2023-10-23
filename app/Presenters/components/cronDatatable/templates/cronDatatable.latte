@@ -1,0 +1,79 @@
+<div class="datatable-wrap">
+    <div>
+        <div class="datatable-flex">
+            <table class="datatable">
+                <tr class="datatable-row-highlighted">
+                    <td>
+                        <span>ID</span>
+                    </td>
+                    <td>
+                        <span>Name</span>
+                    </td>
+                    <td>
+                        <span>Average time (ms)</span>
+                    </td>
+                </tr>
+                {foreach $dataTableDataArray as $dataTableData}
+                    <tr>
+                        <td>
+                            <span>{$dataTableData['Cron Job ID']}</span>
+                        </td>
+                        <td>
+                            <span>{$dataTableData['Cron Job Name']}</span>
+                        </td>
+                        <td>
+                            <span>{$dataTableData['Prumerny cas provedeni']|round}</span>
+                        </td>
+                    </tr>
+                {/foreach}
+            </table>
+            <div>
+                <div class="datatable-filter-time">
+                    <span class="datatable-filter-time-heading">Filter by averige time</span>
+                    <form n:name="form">
+                        <div>
+                            <label n:name="timeFrom">From</label>
+                            <input type="number" class="filter-input" n:name="timeFrom" />
+                        </div>
+                        <div class="filter-input-bottom">
+                            <label n:name="timeTo">To</label>
+                            <input type="number" class="filter-input" n:name="timeTo" />
+                        </div>
+                        <div class="filter-button">
+                            <input type="submit" class="filter-button-submit"/>
+                            <a n:href="resetFilter!" class="filter-button-close-reset">reset</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="datatable-controls-wrap">
+            <div>
+                <a n:href="showLastRows!
+                $dataTableSliceOffset,
+                $dataTablePageIndicator,
+                $dataTableFilterByTimeStatus,
+                $dataTableTimeFilterTimeFrom,
+                $dataTableTimeFilterTimeTo"
+                        class="datatable-control datatable-control-left"
+                >
+                    <
+                </a>
+
+                <span>Page {$dataTablePageIndicator}/{$dataTablePageIndicatorTotal}</span>
+
+                <a n:href="showNextRows!
+                $dataTableSliceOffset,
+                $dataTablePageIndicator,
+                $dataTableFilterByTimeStatus,
+                $dataTableTimeFilterTimeFrom,
+                $dataTableTimeFilterTimeTo"
+                        class="datatable-control datatable-control-right"
+                >
+                    >
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
