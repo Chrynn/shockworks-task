@@ -1,0 +1,2 @@
+services:
+    - App\Presenters\components\cronDatatable\CronDatatableFactory
